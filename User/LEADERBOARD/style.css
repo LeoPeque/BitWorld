@@ -1,0 +1,176 @@
+body{
+    margin: 10;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+
+}
+
+header{
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    
+}
+
+.logos{
+    height: 100%;
+    display: flex;
+}
+
+.logos img{
+    width:400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.wallet{
+    width: fit-content;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.wallet a{
+    text-decoration: none;
+}
+
+.wallet .sallary{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    background-color: #B8B8B8;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2.5px;
+}
+
+.wallet .sallary img{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 40px;
+}
+
+.wallet .sallary p{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    color: white;
+    padding: 5 0 5 10;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2.5px;
+}
+
+.wallet img{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    padding: 5 5 5 0;
+    height: 100%;
+}
+
+.button{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.button a{
+    text-decoration: none;
+    display: block;
+    background-color: #4ACAEC;
+    padding: 10;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 2.5px;
+}
+
+.start{
+    width: 100%;
+    height: 85%;
+    background: radial-gradient(circle, #ffffff, #74DFFC, #00BFF4);
+}
+
+nav{
+    width: fit-content;
+    margin: auto;
+    padding:15;
+
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    padding: 15;
+    font-size: 25;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav li #active{
+    text-decoration: underline;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.scroll-zone{
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    overflow-y: auto;
+    background-color: #61d1ef;
+    box-shadow: inset 10px 10px 10px #429cb5;
+    border-radius: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10;
+}
+
+.ranking-info{
+    display: flex;
+    margin:auto;
+    margin-bottom: 10px;
+    background-color: #4cabc6;
+    height: fit-content;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+.ranking-info p{
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 10;
+    color: white;
+}
